@@ -8,7 +8,8 @@ import {
   useHistory,
   useLocation
 } from "react-router-dom";
-import { Button } from 'blackboard-ui'
+import { Button } from '@blackboard/ui'
+import { AuthAppBar } from '@blackboard/components'
 
 // This example has 3 pages: a public page, a protected
 // page, and a login screen. In order to see the protected
@@ -29,16 +30,17 @@ export default function App() {
   return (
     <Router>
       <div>
+        <AuthAppBar />
         <AuthButton />
 
-        <ul>
+        {/* <ul>
           <li>
             <Link to="/public">Public Page</Link>
           </li>
           <li>
             <Link to="/protected">Protected Page</Link>
           </li>
-        </ul>
+        </ul> */}
 
         <Switch>
           <Route path="/public">
