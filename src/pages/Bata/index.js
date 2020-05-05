@@ -65,11 +65,14 @@ function BataPage() {
             <footer style={{
                 backgroundColor: '#000000',
                 height: '75px',
-
-
-
+                display: 'flex',
+                justifyContent: 'center',
             }}>
-
+                <p style={{
+                    fontSize: "0.7em",
+                    color: "#979797",
+                    letterSpacing: ".1em"
+                }}>© 2020 Blackboard-TH, by iceberg.co.ltd</p>
             </footer>
         </Fragment >
     )
