@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import MobileStoreButton from 'react-mobile-store-button';
-import Icon from './imgs/BB_text.png'
+import Icon from './imgs/Logo2_white.png'
 import Background from './imgs/BG_Header.png'
 function BataPage() {
     const iOSUrl = '';
@@ -26,7 +26,8 @@ function BataPage() {
                         margin: "50px"
                     }}>
                         <img style={{
-                            paddingLeft: 15
+                            paddingLeft: 15,
+                            width: 330
 
                         }} src={Icon} />
                     </div>
