@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import {
   BrowserRouter as Router,
   Switch,
@@ -10,7 +10,7 @@ import {
 } from "react-router-dom";
 import { Button } from '@blackboard/ui'
 import { AuthAppBar } from '@blackboard/components'
-
+import { BataPage } from '@blackboard/pages'
 // This example has 3 pages: a public page, a protected
 // page, and a login screen. In order to see the protected
 // page, you must first login. Pretty standard stuff.
@@ -28,19 +28,20 @@ import { AuthAppBar } from '@blackboard/components'
 
 export default function App() {
   return (
-    <Router>
+    <Fragment>
+      {/* <Router>
       <div>
         <AuthAppBar />
         <AuthButton />
 
-        {/* <ul>
+         <ul>
           <li>
             <Link to="/public">Public Page</Link>
           </li>
           <li>
             <Link to="/protected">Protected Page</Link>
           </li>
-        </ul> */}
+        </ul> 
 
         <Switch>
           <Route path="/public">
@@ -54,7 +55,10 @@ export default function App() {
           </PrivateRoute>
         </Switch>
       </div>
-    </Router>
+    </Router> */}
+      <BataPage />
+    </Fragment>
+
   );
 }
 
@@ -108,6 +112,9 @@ function PrivateRoute({ children, ...rest }) {
           )
       }
     />
+
+
+
   );
 }
 
