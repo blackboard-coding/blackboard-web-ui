@@ -26,10 +26,11 @@ function BataPage() {
                         width: (window.innerWidth - 10)
                     }}>
                         <div style={{
-                            margin: "50px 0px"
+                            margin: "50px 0px",
+                            display: 'flex',
+                            justifyContent: 'center',
                         }}>
                             <img style={{
-                                paddingLeft: 15,
                                 width: 330
 
                             }} src={Icon} />
