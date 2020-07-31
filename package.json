@@ -20,12 +20,13 @@
     "react-dom": "^16.13.1",
     "react-is": "^16.13.1",
     "react-mobile-store-button": "^0.0.6",
+    "react-navigator-user-agent": "^1.0.5",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
     "react-transition-group": "^4.3.0"
   },
   "scripts": {
-    "www": "PORT=3000 react-scripts start",
+    "mobile": "PORT=3004 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
