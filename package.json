@@ -28,7 +28,7 @@
   "scripts": {
     "start": "react-scripts start",
     "mobile_dev": "PORT=3004 react-scripts start",
-    "policy": "serve -s build -l 8084",
+    "mobile": "serve -s build -l 8084",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
