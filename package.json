@@ -26,7 +26,9 @@
     "react-transition-group": "^4.3.0"
   },
   "scripts": {
-    "mobile": "PORT=3004 react-scripts start",
+    "start": "react-scripts start",
+    "mobile_dev": "PORT=3004 react-scripts start",
+    "policy": "serve -s build -l 8084",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
